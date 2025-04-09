@@ -1,0 +1,40 @@
+{
+    "inventory" : [
+        {
+            "id" : 8319,
+            "price" : 775,
+            "name" : "twins jeans"
+        },        
+        {
+            "id" : 8353,
+            "price" : 525,
+            "name" : "nailed sweatshirt1"
+        },
+        {
+            "id" : 8444,
+            "price" : 400,
+            "name" : "spider sweatshirt"
+        },
+
+        {
+            "id" : 8329,
+            "price" : 540,
+            "name" : "swift sweatshirt"
+        },
+        {
+            "id" : 8331,
+            "price" : 595,
+            "name" : "bear sweatshirt oversize 414"
+        },
+        {
+            "id" : 8451,
+            "price" : 650,
+            "name" : "Jeans wideleg belt colors"
+        },
+        {
+            "id" : 8443,
+            "price" : 590,
+            "name" : "sweatshirt iam just a girl "
+        }
+    ]
+}
