@@ -1,0 +1,357 @@
+#body{
+    background-image: linear-gradient(0deg , #FF2D6F, #e4b9c1);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+#top-bar{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 150px;
+    top: 0;
+
+}
+
+
+#logo-img{
+    position: absolute;
+    width: 300px;
+    top: 20px;
+    left: 30px;
+    height: 100px;
+
+    filter:brightness(5);
+    background-image: url(/web_dev/vectoria_clothes/fdhwudJz-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+}
+#faded-background{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    color: white;
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    top: 400px;
+    left: 750px;
+    font-weight: bolder;
+    opacity: 0.2;
+}
+#header-text{
+    position: absolute;
+    top: 450px;
+    font-size: 50px;
+    left: 200px;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+#hero-section-poster{
+    position: absolute;
+    width: 470px;
+    border-radius: 10px;
+    height: 600px;
+    background-image: url(/web_dev/vectoria_clothes/73421736636.png);
+    background-size: cover;
+    background-position: center;
+    left: 1200px;
+    top: 150px;
+    opacity: 0;
+    box-shadow: 0px 0px 10px 5px white;
+    transition: 0.5s all;
+    animation: innerposterhero 0.5s forwards ;
+}
+@keyframes innerposterhero{
+
+    to{
+        top: 200px;
+        opacity: 1;
+    }
+}
+
+
+#shopnowbuttonherosection{
+    position: absolute;
+    left: 400px;
+    top: 590px;
+    width: 180px;
+    font-size: 18px;
+    height: 40px;
+    background-color: #e4b9c1;
+    color: #FF2D6F;
+    border: transparent;
+    font-weight: bolder;
+    border-radius: 3px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#header-text-span{
+    position: relative;
+    left: 30px;
+}
+#shopnowbuttonherosection:hover{
+    transform: translate(-4px, -4px);
+    box-shadow: 4px 4px #FF2D6F;
+}
+
+/*top bar code*/
+
+#top-bar-buttons{
+    position: absolute;
+    left: 1000px;
+    transition: 0.7s all;
+    top: 40px;
+}
+#top-bar-buttons > a{
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 8px 14px 8px 14px;
+    cursor: pointer;
+    transition: 0.4s all;
+    position: relative;
+}
+#top-bar-buttons > a:hover{
+    transform: translate(-4px, -4px);
+    box-shadow: 4px 4px #FF2D6F;
+    background-color: #ebb5bf;
+    border-radius: 4px;
+    color: white;
+}
+
+
+#herosection-topbar{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    transition: all 0.6s;
+    z-index: 100;
+}
+
+/*new arrival section*/
+
+
+#new-arrivals{
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    height: 100%;
+    background-color:hsla(0,0%,100%,1);
+    background-image:
+        radial-gradient(at 27% 99%, hsla(343,100%,76%,1) 0px, transparent 50%),
+        radial-gradient(at 94% 42%, hsla(343,100%,76%,1) 0px, transparent 50%),
+        radial-gradient(at 57% 45%, hsla(240,0%,100%,1) 0px, transparent 50%),
+        radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
+
+}
+
+#new-arrivals > div:hover{
+    
+    background-color: rgba(0, 0, 0, 0.44);
+}
+
+#newarrival1{
+    position: absolute;
+    width: 1000px;
+    height: 870px;
+    background-color: rgba(0, 0, 0, 0.24);
+    top: 30px;
+    overflow: hidden;
+    transition: all 0.2s;
+    left: 30px;
+    border-radius: 5px;
+}
+
+#posternewarrival1{
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 900px;
+    top: 240px;
+    left: 450px;
+    background-image: url(/web_dev/vectoria_clothes/vectoriasuit1-removebg-preview\(1\).png);
+}
+
+#headerposterarrival1{
+    position: absolute;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    top: 170px;
+    left: 100px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+#posternewarrivalseemore{
+    position: absolute;
+    top: 650px;
+    left: 150px;
+    width: 180px;
+    font-size: 24px;
+    background-color: transparent;
+    border: solid 2px white;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+#posternewarrivalseemore:hover{
+    background-color: #ebb5bf;
+    color: rgb(22, 22, 173);
+    border-color: #ebb5bf;
+
+}
+
+
+#cart-icon{
+    position: absolute;
+    left: 80px;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+/*new arrival second poster*/
+#newarrival2{
+    position: absolute;
+    width: 810px;
+    left: 1060px;
+    top: 30px;
+    background-color: red;
+    height: 660px;
+    transition: all 0.2s;
+    background-color: rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#posternewarrival2{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-image: url(/web_dev/vectoria_clothes/vectoriadress1.png);
+    background-position: center;
+    background-size: cover;
+    left: 400px;
+    top: 140px;
+    z-index: 3;
+
+}
+
+
+#newarrivalbox{
+    color: white;
+    position: absolute;
+    width: 100%;
+    font-size: 40px;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;    
+    z-index: 1;
+}
+#newarrivalboxspan1{
+    position: absolute;
+    top: 80px;
+    font-size: 110px;
+    font-weight: bolder;
+    font-family: monospace;
+    letter-spacing: normal;
+    left: 40px;
+}
+
+#newarrivalboxspan1::before{
+    position: absolute;
+    content: "NEW ARRIVAL";
+    width: 1200px;
+    height: 20px;
+    top: -10px;
+    left: 10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #FF2D6F;
+    
+}
+#newarrivalboxspan1::after{
+    position: absolute;
+    content: "NEW ARRIVAL";
+    width: 1200px;
+    height: 20px;
+    top: 10px;
+    left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #FF2D6F;
+    z-index: -1;
+    
+}
+
+
+#newarrival2header{
+    position: absolute;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    top: 210px;
+    left: 40px;
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+#posternewarrivalseemore1{
+    position: absolute;
+    top: 480px;
+    left: 40px;
+    width: 180px;
+    font-size: 24px;
+    background-color: transparent;
+    border: solid 2px white;
+    z-index: 10;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+#posternewarrivalseemore1:hover{
+    background-color: #FF2D6F;
+    border-color: #FF2D6F;
+
+}
+
+/*arrival 3 poster*/
+
+
+#newarrival3{
+    position: absolute;
+    width: 810px;
+    left: 1060px;
+    height: 190px;
+    background-color: rgba(0, 0, 0, 0.24);
+    top: 710px;
+    border-radius: 5px;
+    
+    transition: all 0.2s;
+
+}
+
+
+
+
+
+/*third page code*/
+
+
+
+#thirdpage{
+    position: absolute;
+    top: 1930px;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
